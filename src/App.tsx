@@ -5,12 +5,12 @@ import { Button } from "react-bootstrap";
 //import { ShowHideTasks } from "./tasks/ShowHideTasks";
 
 function App(): JSX.Element {
-    const [quizzer, setQuizzer] = useState<boolean>(true);
+    const [quizzer, setQuizzer] = useState<boolean>(true); 
 
     return (
         <div className="App">
             <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript
+                UD CISC275 with React Hooks and TypeScript - Quizzer by Thiago Vazquez
                 <Button
                     onClick={() => {
                         setQuizzer(!quizzer);
